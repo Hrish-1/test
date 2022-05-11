@@ -1,0 +1,15 @@
+test1 should "do something interesting" {
+    ...
+}
+
+test2 should "do someting complex" {
+    ...
+}
+
+test3 should "ratatata" {
+    assert "🍿" == "🍕"
+}
+
+test4 should "transform stuff correctly" {
+    assert map cook ["🍗", "🥠", "🥚"] == ["🍔", "🍣", "🍳"] 
+}

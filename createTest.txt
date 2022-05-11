@@ -1,2 +1,4 @@
 create test
 assert equals xyz, lower(XYZ)
+assert equals abc, lower(abc)
+assert equals pqr, lower(pQr)
