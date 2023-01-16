@@ -13,3 +13,11 @@ test3 should "ratatata" {
 test4 should "transform stuff correctly" {
     assert map cook ["🍗", "🥠", "🥚"] == ["🍔", "🍣", "🍳"] 
 }
+
+test3 should "ratatata2" {
+    assert "🍿" == "🍕"
+}
+
+test3 should "ratatata3" {
+    assert "🍿" == "🍕"
+}
