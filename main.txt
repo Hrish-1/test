@@ -1,1 +1,6 @@
 This is main
+create a b
+create c
+link c a
+destroy c
+refresh a
