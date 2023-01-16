@@ -1,4 +1,5 @@
 create test
-assert equals xyz, lower(XYZ)
-assert equals abc, lower(abc)
-assert equals pqr, lower(pQr)
+assert that xyz equals lower(XYZ)
+assert that abc equals lower(ABC)
+assert that pqr equals lower(PQR)
+assert that uvw equals lower(UVW) 
